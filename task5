@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 450px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        button, input[type="submit"], input[type="reset"] {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Student Registration Form</h2>
+
+<form>
+
+<table>
+
+<tr>
+    <td>Name:</td>
+    <td><input type="text" placeholder="Enter your name"></td>
+</tr>
+
+<tr>
+    <td>Password:</td>
+    <td><input type="password" placeholder="Enter password"></td>
+</tr>
+
+<tr>
+    <td>Address:</td>
+    <td>
+        <textarea rows="4" placeholder="Enter your address"></textarea>
+    </td>
+</tr>
+
+<tr>
+    <td>Gender:</td>
+    <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+    </td>
+</tr>
+
+<tr>
+    <td>Hobbies:</td>
+    <td>
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Music
+    </td>
+</tr>
+
+<tr>
+    <td>Department:</td>
+    <td>
+        <select>
+            <option>Select Department</option>
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Electronics</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Upload Photo:</td>
+    <td><input type="file"></td>
+</tr>
+
+<tr>
+    <td colspan="2" class="buttons">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <button type="button" onclick="alert('Custom Button Clicked!')">
+            Custom Button
+        </button>
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+</body>
+</html>
