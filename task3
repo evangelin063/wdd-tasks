@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC College</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #0059b3;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #003366;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ABC College</h1>
+    <p>Welcome to Our College Website</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <h2 id="about">About Us</h2>
+    <p>
+        ABC College provides quality education with experienced faculty,
+        modern laboratories, and excellent placement opportunities.
+    </p>
+
+    <h2 id="courses">Courses Offered</h2>
+    <ul>
+        <li>B.Sc Computer Science</li>
+        <li>BCA</li>
+        <li>B.Com</li>
+        <li>BBA</li>
+        <li>M.Sc Computer Science</li>
+    </ul>
+
+    <h2 id="facilities">Facilities</h2>
+    <ul>
+        <li>Digital Library</li>
+        <li>Computer Laboratories</li>
+        <li>Wi-Fi Campus</li>
+        <li>Sports Complex</li>
+        <li>Hostel Facility</li>
+    </ul>
+
+    <h2 id="contact">Contact</h2>
+    <ul>
+        <li>Email: info@abccollege.com</li>
+        <li>Phone: +91 9876543210</li>
+        <li>Website:
+            <a href="https://www.abccollege.com" target="_blank">
+                www.abccollege.com
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 ABC College. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
