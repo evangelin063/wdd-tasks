@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Letter</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            margin:0;
+            padding:0;
+        }
+
+        .container{
+            width:70%;
+            margin:30px auto;
+            background:#ffffff;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            color:#d32f2f;
+            text-align:center;
+        }
+
+        h2{
+            color:#333;
+        }
+
+        p{
+            font-size:18px;
+            line-height:1.6;
+            color:#555;
+        }
+
+        img{
+            display:block;
+            margin:20px auto;
+            width:400px;
+            max-width:100%;
+            border-radius:8px;
+        }
+
+        ul{
+            font-size:18px;
+            color:#444;
+        }
+
+        .btn{
+            display:block;
+            width:220px;
+            margin:30px auto;
+            text-align:center;
+            background:#28a745;
+            color:white;
+            text-decoration:none;
+            padding:15px;
+            font-size:20px;
+            border-radius:5px;
+        }
+
+        .btn:hover{
+            background:#218838;
+        }
+
+        .footer{
+            text-align:center;
+            color:#777;
+            margin-top:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🔥 Limited Time Offer! 🔥</h1>
+
+    <h2>Introducing the Smart Fitness Watch</h2>
+
+    <img src="product.jpg" alt="Smart Fitness Watch">
+
+    <p>
+        Are you ready to improve your health and stay connected at the same time?
+        Our <strong>Smart Fitness Watch</strong> helps you track your daily
+        activities, monitor your heart rate, and receive smartphone notifications
+        right on your wrist.
+    </p>
+
+    <h2>Why Choose Our Product?</h2>
+
+    <ul>
+        <li>✔ Heart Rate & Sleep Monitoring</li>
+        <li>✔ Step & Calorie Counter</li>
+        <li>✔ Waterproof Design</li>
+        <li>✔ Long Battery Life</li>
+        <li>✔ Affordable Price</li>
+    </ul>
+
+    <p>
+        <strong>Special Offer:</strong> Get <span style="color:red;">25% OFF</span>
+        when you order today. Don't miss this exclusive deal!
+    </p>
+
+    <a href="#" class="btn">Buy Now</a>
+
+    <div class="footer">
+        <p>Offer valid while stocks last.</p>
+        <p>Contact: info@example.com | +1 234 567 890</p>
+    </div>
+
+</div>
+
+</body>
+</html>
