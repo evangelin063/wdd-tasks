@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Action Validator</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .container {
+            width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        function startApplication() {
+
+            // Alert Box
+            alert("Welcome to User Action Validator!");
+
+            // Prompt Box
+            var name = prompt("Enter your name:");
+
+            if (name == "" || name == null) {
+                alert("Name cannot be empty.");
+                return;
+            }
+
+            // Confirm Box
+            var choice = confirm("Do you want to continue?");
+
+            if (choice == true) {
+                document.getElementById("output").innerHTML =
+                    "Welcome, " + name + "! Your action has been confirmed.";
+            } else {
+                document.getElementById("output").innerHTML =
+                    "Hello, " + name + ". You cancelled the action.";
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>User Action Validator</h1>
+
+    <p>
+        This application demonstrates the use of
+        <strong>Alert</strong>,
+        <strong>Prompt</strong>, and
+        <strong>Confirm</strong> dialog boxes.
+    </p>
+
+    <button onclick="startApplication()">
+        Start Application
+    </button>
+
+    <p id="output"></p>
+
+</div>
+
+</body>
+</html>
