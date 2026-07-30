@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Online Quiz</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(to right,#667eea,#764ba2);
+}
+
+.container{
+    width:400px;
+    background:white;
+    margin:100px auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 0px 20px black;
+    text-align:center;
+}
+
+h1{
+    color:#4b0082;
+}
+
+input{
+    width:90%;
+    padding:12px;
+    margin:10px;
+    border-radius:5px;
+    border:1px solid gray;
+}
+
+button{
+    background:#4b0082;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#ff6600;
+}
+
+#quiz{
+    display:none;
+}
+
+.question{
+    background:white;
+    margin:20px auto;
+    padding:20px;
+    width:70%;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.option{
+    margin:10px;
+}
+
+</style>
+
+
+<script>
+
+function login()
+{
+
+var user=document.getElementById("username").value;
+var pass=document.getElementById("password").value;
+
+
+if(user=="student" && pass=="1234")
+{
+    alert("Login Successful!");
+
+    document.getElementById("login").style.display="none";
+    document.getElementById("quiz").style.display="block";
+}
+
+else
+{
+    alert("Invalid Username or Password!");
+}
+
+}
+
+</script>
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="login">
+
+<h1>🎓 Smart Quiz Login</h1>
+
+<p>Enter Login Details</p>
+
+
+<input type="text" 
+id="username"
+placeholder="Enter Username">
+
+
+<input type="password"
+id="password"
+placeholder="Enter Password">
+
+
+<button onclick="login()">
+Login
+</button>
+
+
+<p>
+Demo Login:<br>
+Username: student<br>
+Password: 1234
+</p>
+
+
+</div>
+
+
+
+<div id="quiz">
+
+<h1 style="text-align:center;color:white;">
+🧠 Online General Knowledge Quiz
+</h1>
+
+
+<!-- Questions will be added in Part 2 -->
+
+
+</div>
+
+
+
+</body>
+</html>
