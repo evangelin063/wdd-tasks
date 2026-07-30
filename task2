@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advertisement</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .ad-container {
+            width: 700px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        .ad-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff4500;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .offer {
+            font-size: 24px;
+            color: red;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background: #218838;
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="ad-container">
+
+    <img src="ad-image.jpg" alt="Advertisement Image">
+
+    <div class="content">
+
+        <h1>MEGA SALE!</h1>
+
+        <h2>Latest Smartphones at Unbeatable Prices</h2>
+
+        <p>
+            Upgrade to the newest smartphone with amazing features,
+            high-speed performance, and long-lasting battery life.
+        </p>
+
+        <div class="offer">
+            Flat 40% OFF – Limited Time Only!
+        </div>
+
+        <a href="#" class="btn">Shop Now</a>
+
+    </div>
+
+    <div class="footer">
+        Contact: +1 234 567 890 | www.yourstore.com
+    </div>
+
+</div>
+
+</body>
+</html>
