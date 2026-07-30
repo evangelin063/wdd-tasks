@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+
+<frameset rows="20%,80%">
+    <frame src="header.html" name="header">
+
+    <frameset cols="25%,75%">
+        <frame src="menu.html" name="menu">
+        <frame src="home.html" name="content">
+    </frameset>
+
+</frameset>
+
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background:navy;
+color:white;
+text-align:center;
+font-family:Arial;
+}
+</style>
+</head>
+
+<body>
+
+<h1>ABC College Website</h1>
+<h3>Welcome to Our Website</h3>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body{
+font-family:Arial;
+background:#eeeeee;
+}
+
+a{
+display:block;
+padding:10px;
+background:skyblue;
+margin:8px;
+text-decoration:none;
+text-align:center;
+font-weight:bold;
+}
+
+a:hover{
+background:orange;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a href="home.html" target="content">Home</a>
+
+<a href="gallery.html" target="content">Gallery</a>
+
+<a href="video.html" target="content">Video</a>
+
+<a href="audio.html" target="content">Audio</a>
+
+<a href="contact.html" target="content">Contact</a>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script>
+
+function welcome()
+{
+alert("Welcome to Our Website");
+}
+
+</script>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+background:#f2f2f2;
+}
+
+</style>
+
+</head>
+
+<body onload="welcome()">
+
+<h2>Home Page</h2>
+
+<img src="college.jpg" width="400" height="250">
+
+<p>
+
+This website contains multimedia components like Image, Audio, Video and JavaScript.
+
+</p>
+
+<button onclick="document.body.style.background='lightyellow'">
+Change Background
+</button>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<body style="text-align:center;font-family:Arial;">
+
+<h2>Image Gallery</h2>
+
+<img src="image1.jpg" width="250">
+
+<img src="image2.jpg" width="250">
+
+<img src="image3.jpg" width="250">
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+<body style="text-align:center;">
+
+<h2>College Video</h2>
+
+<video width="500" controls>
+
+<source src="college.mp4" type="video/mp4">
+
+</video>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+<body style="text-align:center;">
+
+<h2>College Anthem</h2>
+
+<audio controls>
+
+<source src="song.mp3" type="audio/mpeg">
+
+</audio>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script>
+
+function message()
+{
+alert("Thank you for visiting our website!");
+}
+
+</script>
+
+</head>
+
+<body style="font-family:Arial; text-align:center;">
+
+<h2>Contact Us</h2>
+
+<p>Email : info@college.com</p>
+
+<p>Phone : +91 9876543210</p>
+
+<button onclick="message()">Click Here</button>
+
+</body>
+
+</html>
